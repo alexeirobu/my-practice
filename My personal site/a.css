@@ -1,0 +1,177 @@
+* {margin:0 30px 0 30px; }
+div {border-radius: 10px;}
+}
+
+/* Body description */
+
+#body {
+    background-color:red;
+    border: 0 0 0 0;  
+}
+    
+/*Header Edit*/
+    
+header {
+    background-color: aqua;
+    border-radius: 10px;
+    height: 80px;
+    border: 1px solid black;
+    margin: 0 20px 0;
+}
+.ph {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    
+}
+
+/*Navigation menu editor*/
+nav {
+    background-color: skyblue;
+    height: 70px;
+    border: 1px solid black; 
+    margin: 0 20px 0;
+    border-radius: 10px;
+}
+
+.ih {
+    width: 70px;
+    height: 70px;
+    float:left;
+    display:block;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    
+}
+/*Section Edit*/
+section {
+    background-color: skyblue;
+    border-radius:10px;
+    min-height: 800px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 20px 0;
+}
+
+
+/*Footer Edit*/
+footer {
+    background-color: aqua;
+    height: 80px;
+    border: 1px solid black;   
+    margin: 0 20px 0;
+}
+
+/*Pagination*/
+ul.pagination {
+    display: inline-block;
+    font-size: 20px;
+    background-color: blueviolet;
+    float:left;
+
+    
+}
+ul.pagination li {
+    display: inline-block;
+    margin:auto;
+}
+ul.pagination li a {
+    color:yellow;
+    float: left;
+    border: 1px solid black;
+    display:inline-block;
+}
+
+/*Others*/
+
+
+.navlinks {
+    font-family: serif;
+    font-size: 30px;
+    display: inline-block;
+    text-align:center;
+    margin:auto;
+}
+.linkpadding{
+    padding-left: 50px;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+}
+nav a:visited {
+    color:green;
+}
+nav a:hover {
+    color: black;
+}
+nav a: active {
+    color:yellow;
+    text-decoration: underline;
+}
+
+#rcorners {
+    border-radius: 50%;
+    background-image: url(imagesa/01h.jpg);
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border: 5px double green;
+    margin: auto;
+}
+
+
+.rcorners {
+    position: relative;
+   
+}
+
+
+/*Second page*/
+
+.newspaper {
+    -webkit-column-count:4;
+    -webkit-column-gap: 30px;
+    -webkit-column-rule-style: solid;
+     border: 1px solid black;
+     padding-left: 20px;
+    -webkit-column-rule-width: 5px;
+    -webkit-column-rule-color: red;
+    margin-right: 20px;
+}
+
+.hn {
+    -webkit-column-span: all;
+}
+
+.resize {
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    resize: both;
+    overflow:auto;
+    padding: 10px;
+    background-color: yellow;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+#navleft {
+    position: absolute;
+    float: left;
+    width: 10%;
+    min-height: 800px;
+    margin:auto;
+    border: 1px solid black;
+    display: block;
+}
+
+#csection {
+    float: left;
+    width: 90%;
+    min-height: 800px;
+    display: block;
+    
+}
